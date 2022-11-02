@@ -34,11 +34,9 @@ namespace Lab5_ISIS
             Word.Range range = doc.Range();
             Word.Table table = doc.Tables.Add(range, 3, 4, true, true);
 
-            int rangeBegin = doc.Range();
-
-            for (int i = 0; i > 12; i++)
+            for (int i = 0; i < 12; i++)
             {
-                range.Text = c.ToString();
+                range.Text = "1111";
             }
 
             app.Visible = true;
